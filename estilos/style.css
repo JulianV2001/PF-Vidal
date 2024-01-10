@@ -1,0 +1,360 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-index {
+    background-image: url("/imagenes/imagen\ gimnasio\ 1.png");
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.header-paginas {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.navbar-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+    padding: 0% 5%;
+}
+
+.navbar-paginas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0% 5%;
+}
+
+.subrayado {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.letras-nav {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.lista-sin-viñetas {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.titulo-index {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 4.375rem;
+    margin: auto;
+}
+
+.titulo-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-info {
+    font-size: 4rem;
+}
+
+.titulo-info-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-info-contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    border: #E47E11 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 2rem;
+}
+
+.contenedor-cards-titulos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-titulo-arriba-cards {
+    margin-left: 9.5rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-beneficios {
+    font-size: 1.25rem;
+}
+
+.subtitulo-beneficios {
+    font-size: 3.125rem;
+}
+
+.cards-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.card-1 {
+    height: 34.8125rem;
+    width: 24.1875rem;
+    background-color: black;
+    text-align: center;
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 {
+    height: 34.8125rem;
+    width: 24.1875rem;
+    background-color: #E47E11;
+    text-align: center;
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-3 {
+    height: 34.8125rem;
+    width: 24.1875rem;
+    background-color: black;
+    text-align: center;
+    padding: 3rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.tamaño-titulo-cards {
+    font-size: 2.5rem;
+}
+
+.tamaño-subtitulo-cards {
+    font-size: 4.5rem;
+}
+
+.footer {
+    background-color: black;
+    height: 6rem;
+    text-align: center;
+}
+
+.subtitulo-salas {
+    margin-left: 7rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.contenedor-imagenes-salas {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas:
+                        "img1 img2"
+                        "img3 img4";
+    grid-gap: 8rem;
+    row-gap: 8rem;
+}
+
+.imagenes-salas {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo-horarios {
+    display: flex;
+    justify-content: center;
+    margin: 7rem;
+    font-size: 50px;
+}
+
+.subtitulos-horarios {
+    display: flex;
+}
+
+.cronograma-horarios {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 3rem;
+}
+
+.separacion-cronograma {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tamaño-sub-horarios {
+    font-size: 2rem;
+}
+
+.mapa {
+    margin-left: 33rem;
+    margin-bottom: 3rem;
+}
+
+.contenedor-direccion-mapa {
+    margin-bottom: 5rem;
+}
+
+.direccion-mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-profesores {
+    margin-left: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.contenedor-img-profes {
+    margin-left: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+    display: grid;
+    grid-template-areas:
+                        "profe1 profe2 profe3"
+                        "profe4 profe5 profe6";
+    grid-gap: 6rem;
+    row-gap: 8rem;
+}
+
+.imagenes-profes {
+    width: 370px;
+    height: 450px;
+    object-fit: cover;
+    
+}
+
+.formulario {
+    margin-left: 5rem;
+    margin-bottom: 8rem;
+}
+
+.contenido-formulario {
+    margin: 5rem;
+    font-size: 2rem;
+}
+
+
+
+.inter-bold {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.inter-regular {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.inter-medium {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.inter-semibold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.inter.extrabold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.inter-black {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+.color-naranja {
+    color: #E47E11;
+}
+
+.colo-negro{
+    color: black;
+}
+
+.color-blanco {
+    color: white;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) 
+    {
+        .cards-contenedor {
+        flex-direction: column;
+        margin: auto;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .cards-contenedor {
+        flex-direction: column;
+        margin: auto;
+        gap: 3rem;
+    }
+    
+    .card-1 {  
+        height: 34.8125rem;
+        width: 80%;
+    }
+
+    .titulo-index {
+        font-size: 2rem;
+    }
+
+    .titulito {
+        width: 80%;
+        margin: auto;
+    }
+}
