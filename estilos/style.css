@@ -268,7 +268,7 @@
     width: 370px;
     height: 450px;
     object-fit: cover;
-    
+
 }
 
 .formulario {
@@ -338,6 +338,12 @@
 
 @media screen and (max-width: 767px)
 {
+
+    .lista-sin-viñetas {
+        padding: 0,5rem;
+        margin: 0,5rem;
+    }
+
     .cards-contenedor {
         flex-direction: column;
         margin: auto;
@@ -347,6 +353,23 @@
     .card-1 {  
         height: 34.8125rem;
         width: 80%;
+        margin: auto;
+    }
+
+    .card-2 {
+        height: 34.8125rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .card-3 {
+        height: 34.8125rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    .cards-contenedor {
+        margin-bottom: 3rem;
     }
 
     .titulo-index {
@@ -356,5 +379,41 @@
     .titulito {
         width: 80%;
         margin: auto;
+    }
+    .contenedor-titulo-arriba-cards {
+        margin-left: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .tamaño-subtitulo-cards {
+        font-size: 2rem;
+    }
+
+    .contenedor-img-profes {
+        margin-left: 0rem;
+        margin-top: 5rem;
+        margin-bottom: 12rem;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-areas:
+                            "profe1 "
+                            "profe2 "
+                            "profe3 "
+                            "profe4 "
+                            "profe5 "
+                            "profe6 ";
+        grid-gap: 6rem;
+        row-gap: 8rem;
+    }
+
+    .imagenes-profes {
+        width: 270px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .titulo-profesores {
+        margin-left: 4rem;
     }
 }
