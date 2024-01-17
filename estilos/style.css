@@ -405,6 +405,7 @@
     }
 
     .titulito {
+        margin: auto;
         font-size: 2rem;
     }
 
@@ -451,14 +452,6 @@
         margin-bottom: 3rem;
     }
 
-    .titulo-index {
-        font-size: 2rem;
-    }
-
-    .titulito {
-        width: 80%;
-        margin: auto;
-    }
     .contenedor-titulo-arriba-cards {
         margin-left: 5rem;
         margin-top: 3rem;
