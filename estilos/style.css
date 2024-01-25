@@ -391,6 +391,32 @@
     .titulo-profesores {
         margin-left: 4rem;
     }
+
+    .contenedor-imagenes-salas {
+        width: 80%;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-areas:
+                            "img1" 
+                            "img2"
+                            "img3" 
+                            "img4";
+        grid-gap: 8rem;
+        row-gap: 8rem;
+    }
+
+    .mapa {
+        margin-left: 6rem;
+    }
+
+    .cronograma-horarios {
+        margin-left: 2rem;
+        gap: 3rem;
+    }
+
+    .formulario {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 767px)
@@ -491,5 +517,48 @@
 
     .titulo-profesores {
         margin-left: 4rem;
+    }
+
+    .contenedor-imagenes-salas {
+        width: 80%;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-areas:
+                            "img1" 
+                            "img2"
+                            "img3" 
+                            "img4";
+        grid-gap: 5rem;
+        row-gap: 5rem;
+    }
+
+    .imagenes-salas {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .mapa {
+        margin-left: 4rem;
+        height: 300px;
+        width: 300px;
+    }
+
+    .cronograma-horarios {
+        margin-left: 1rem;
+        gap: 3rem;
+    }
+
+    .formulario {
+        margin-left: 0;
+    }
+
+    .contenido-formulario {
+        margin: 2rem;
+        font-size: 2rem;
+    }
+
+    input {
+        font-size: 1rem;
     }
 }
