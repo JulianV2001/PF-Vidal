@@ -51,6 +51,11 @@
 .logo {
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    margin-top: 1rem;
+}
+
+.logo-paginas {
+    margin: 0;
 }
 
 .logo-index {
