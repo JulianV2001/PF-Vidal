@@ -1,0 +1,78 @@
+.header-paginas {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    .navbar-paginas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        padding: 0% 5%;
+        .logo {
+            font-family: $tipografia-principal;
+            font-weight: bold;
+            margin-top: 1rem;
+            .logo-paginas{
+                margin: 0;
+            }
+            .color-naranja {
+                color: $color-principal;
+            }
+            .color-blanco {
+                color: white;
+            }
+        }
+        .lista-sin-viñetas {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            gap: 5rem;
+            li {
+                .letras-nav {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+                .subrayado {
+                    text-decoration: none;
+                }
+                
+            }
+            li {
+                .letras-nav {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+                
+            }            li {
+                .letras-nav {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+                .subrayado {
+                    text-decoration: none;
+                }
+                
+            }            li {
+                .letras-nav {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+                .subrayado {
+                    text-decoration: none;
+                }
+                
+            }            li {
+                .letras-nav {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+                .subrayado {
+                    text-decoration: none;
+                }
+                
+            }
+        }
+    }
+}

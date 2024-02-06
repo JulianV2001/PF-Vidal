@@ -1,0 +1,130 @@
+main {
+    .inter-bold {
+        font-family: $tipografia-principal;
+        font-weight: bold;
+    }
+    .titulo-horarios {
+        display: flex;
+        justify-content: center;
+        margin: 7rem;
+        font-size: 50px;
+    }
+    .inter-bold {
+        font-family: $tipografia-principal;
+        font-weight: bold;
+    }
+    .cronograma-horarios {
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        gap: 3rem;
+        .separacion-cronograma {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .tamaño-sub-horarios {
+            font-size: 2rem;
+            .subtitulos-horarios {
+                display: flex;
+                .color-naranja {
+                    color: $color-principal;
+                }
+                .inter-regular {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+            }
+        }
+        .separacion-cronograma {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .tamaño-sub-horarios {
+            font-size: 2rem;
+            .subtitulos-horarios {
+                display: flex;
+                .color-naranja {
+                    color: $color-principal;
+                }
+                .inter-regular {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+            }
+        }
+        .separacion-cronograma {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .tamaño-sub-horarios {
+            font-size: 2rem;
+            .subtitulos-horarios {
+                display: flex;
+                .color-naranja {
+                    color: $color-principal;
+                }
+                .inter-regular {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+            }
+        }
+        .separacion-cronograma {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .tamaño-sub-horarios {
+            font-size: 2rem;
+            .subtitulos-horarios {
+                display: flex;
+                .color-naranja {
+                    color: $color-principal;
+                }
+                .inter-regular {
+                    font-family: $tipografia-principal;
+                    font-weight: 400;
+                }
+            }
+        }
+        .tamaño-sub-horarios {
+            font-size: 2rem;
+        }        
+    }
+    .inter-bold {
+        font-family: $tipografia-principal;
+        font-weight: bold;
+    }
+    .titulo-horarios {
+        display: flex;
+        justify-content: center;
+        margin: 7rem;
+        font-size: 50px;
+    }
+    div {
+        .mapa {
+            margin-left: 33rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .contenedor-direccion-mapa {
+        margin-bottom: 5rem;
+        .inter-black {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 200%;
+        }
+        .direccion-mapa {
+            display: flex;
+            justify-content: center;
+        }
+        .inter-black {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+            font-size: 200%;
+        }
+        .direccion-mapa {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

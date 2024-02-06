@@ -1,0 +1,59 @@
+main {
+    section {
+        .inter-bold {
+            font-family: $tipografia-principal;
+            font-weight: bold;
+        }
+        .titulo-horarios {
+            display: flex;
+            justify-content: center;
+            margin: 7rem;
+            font-size: 50px;
+        }
+    }
+    section {
+        .inter-bold {
+            font-family: $tipografia-principal;
+            font-weight: bold;
+        }
+        .formulario {
+            margin-left: 5rem;
+            margin-bottom: 8rem;
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                label {}
+                input {}
+            }
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                label {}
+                input {}
+            }
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                label {}
+                input {}
+            }
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                label {}
+                input {}
+            }
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                label {}
+                input {}
+            }
+            .contenido-formulario {
+                margin: 5rem;
+                font-size: 2rem;
+                input {}
+            }
+        }        
+    }
+}

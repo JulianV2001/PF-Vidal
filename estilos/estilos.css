@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
 .header-index {
   background-image: url("../imagenes/PC-gimnasio.jpg");
   height: 70vh;
@@ -12,7 +19,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: row;
   width: 100%;
   height: 100px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
@@ -101,7 +108,7 @@ main .titulo-info-contenedor .titulo-info-flex .inter-bold {
 main .titulo-info-contenedor .titulo-info-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: row;
 }
 main .titulo-info-contenedor .titulo-info-flex .color-naranja {
   color: #E47E11;
@@ -125,7 +132,7 @@ main .titulo-info-contenedor .titulo-info-flex .inter-bold {
 main .titulo-info-contenedor .titulo-info-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: row;
 }
 main .titulo-info-contenedor .titulo-info-flex .color-naranja {
   color: #E47E11;
@@ -181,41 +188,390 @@ main .contenedor-cards-titulos .cards-contenedor {
   margin-bottom: 5rem;
   margin-top: 5rem;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 {
+main .contenedor-cards-titulos .cards-contenedor .card-1, main .contenedor-cards-titulos .cards-contenedor .card-2 {
   height: 34.8125rem;
   width: 24.1875rem;
   background-color: black;
-  text-align: center;
+  text-align: row;
   padding: 3rem;
   gap: 3rem;
   display: flex;
   flex-direction: column;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-medium {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-medium, main .contenedor-cards-titulos .cards-contenedor .card-2 .inter-medium {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .tamaño-titulo-cards {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .tamaño-titulo-cards, main .contenedor-cards-titulos .cards-contenedor .card-2 .tamaño-titulo-cards {
   font-size: 2.5rem;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-semibold {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-semibold, main .contenedor-cards-titulos .cards-contenedor .card-2 .inter-semibold {
   font-family: "Inter", sans-serif;
   font-weight: 600;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .tamaño-subtitulo-cards {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .tamaño-subtitulo-cards, main .contenedor-cards-titulos .cards-contenedor .card-2 .tamaño-subtitulo-cards {
   font-size: 4.5rem;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-regular {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .inter-regular, main .contenedor-cards-titulos .cards-contenedor .card-2 .inter-regular {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main .contenedor-cards-titulos .cards-contenedor .card-1 .card-ul {
+main .contenedor-cards-titulos .cards-contenedor .card-1 .card-ul, main .contenedor-cards-titulos .cards-contenedor .card-2 .card-ul {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 main .contenedor-cards-titulos .cards-contenedor .color-blanco {
   color: white;
+}
+main .contenedor-cards-titulos .cards-contenedor .card-2 {
+  background-color: #E47E11;
+}
+
+main section .subtitulo-salas {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+main section .subtitulo-salas .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main section .subtitulo-salas .color-naranja {
+  color: #E47E11;
+}
+main section .contenedor-imagenes-salas {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-areas: "img1 img2" "img3 img4";
+  grid-gap: 8rem;
+  row-gap: 8rem;
+}
+main section .contenedor-imagenes-salas div .imagenes-salas {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+main section .contenedor-imagenes-salas div .imagenes-salas {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+main section .contenedor-imagenes-salas div .imagenes-salas {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+main section .contenedor-imagenes-salas div .imagenes-salas {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+main section .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main section .titulo-horarios {
+  display: flex;
+  justify-content: center;
+  margin: 7rem;
+  font-size: 50px;
+}
+main section .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main section .formulario {
+  margin-left: 5rem;
+  margin-bottom: 8rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main section .formulario .contenido-formulario {
+  margin: 5rem;
+  font-size: 2rem;
+}
+main .titulo-profesores {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+main .titulo-profesores .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main .titulo-profesores .color-naranja {
+  color: #E47E11;
+}
+main .titulo-profesores .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .subtitulo-salas {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+main .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .contenedor-img-profes {
+  margin-left: 7rem;
+  margin-top: 5rem;
+  margin-bottom: 12rem;
+  display: grid;
+  grid-template-areas: "profe1 profe2 profe3" "profe4 profe5 profe6";
+  grid-gap: 6rem;
+  row-gap: 8rem;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .contenedor-img-profes .imagenes-profes {
+  width: 370px;
+  height: 450px;
+  object-fit: cover;
+}
+main .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .titulo-horarios {
+  display: flex;
+  justify-content: center;
+  margin: 7rem;
+  font-size: 50px;
+}
+main .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .cronograma-horarios {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 3rem;
+}
+main .cronograma-horarios .separacion-cronograma {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios {
+  font-size: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios {
+  display: flex;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .color-naranja {
+  color: #E47E11;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main .cronograma-horarios .separacion-cronograma {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios {
+  font-size: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios {
+  display: flex;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .color-naranja {
+  color: #E47E11;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main .cronograma-horarios .separacion-cronograma {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios {
+  font-size: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios {
+  display: flex;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .color-naranja {
+  color: #E47E11;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main .cronograma-horarios .separacion-cronograma {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios {
+  font-size: 2rem;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios {
+  display: flex;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .color-naranja {
+  color: #E47E11;
+}
+main .cronograma-horarios .tamaño-sub-horarios .subtitulos-horarios .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main .cronograma-horarios .tamaño-sub-horarios {
+  font-size: 2rem;
+}
+main .inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .titulo-horarios {
+  display: flex;
+  justify-content: center;
+  margin: 7rem;
+  font-size: 50px;
+}
+main div .mapa {
+  margin-left: 33rem;
+  margin-bottom: 3rem;
+}
+main .contenedor-direccion-mapa {
+  margin-bottom: 5rem;
+}
+main .contenedor-direccion-mapa .inter-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 200%;
+}
+main .contenedor-direccion-mapa .direccion-mapa {
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-direccion-mapa .inter-black {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 200%;
+}
+main .contenedor-direccion-mapa .direccion-mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.header-paginas {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+.header-paginas .navbar-paginas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 0% 5%;
+}
+.header-paginas .navbar-paginas .logo {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.header-paginas .navbar-paginas .logo .logo-paginas {
+  margin: 0;
+}
+.header-paginas .navbar-paginas .logo .color-naranja {
+  color: #E47E11;
+}
+.header-paginas .navbar-paginas .logo .color-blanco {
+  color: white;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .letras-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .subrayado {
+  text-decoration: none;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .letras-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .letras-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .subrayado {
+  text-decoration: none;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .letras-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .subrayado {
+  text-decoration: none;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .letras-nav {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.header-paginas .navbar-paginas .lista-sin-viñetas li .subrayado {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  height: 6rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -172,17 +172,6 @@
     flex-direction: column;
 }
 
-.card-3 {
-    height: 34.8125rem;
-    width: 24.1875rem;
-    background-color: black;
-    text-align: center;
-    padding: 3rem;
-    gap: 3rem;
-    display: flex;
-    flex-direction: column;
-}
-
 .card-ul {
     display: flex;
     flex-direction: column;
@@ -289,7 +278,6 @@
     width: 370px;
     height: 450px;
     object-fit: cover;
-
 }
 
 .formulario {
@@ -301,7 +289,6 @@
     margin: 5rem;
     font-size: 2rem;
 }
-
 
 
 .inter-bold {

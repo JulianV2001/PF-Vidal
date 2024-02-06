@@ -1,0 +1,56 @@
+main {
+    section {
+        .subtitulo-salas {
+            margin-left: 7rem;
+            margin-top: 5rem;
+            font-size: 2rem;
+            .inter-regular {
+                font-family: $tipografia-principal;
+                font-weight: 400;
+            }
+            .color-naranja {
+                color: $color-principal;
+            }        
+        }
+        .contenedor-imagenes-salas {
+            width: 80%;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-areas:
+                                "img1 img2"
+                                "img3 img4";
+            grid-gap: 8rem;
+            row-gap: 8rem;
+            div {
+                .imagenes-salas {
+                    width: 600px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                .img1 {}                
+            }
+            div {
+                .imagenes-salas {
+                    width: 600px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                .img2 {}                
+            }            div {
+                .imagenes-salas {
+                    width: 600px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                .img3 {}                
+            }            div {
+                .imagenes-salas {
+                    width: 600px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                .img4 {}                
+            }
+        }
+    }
+}

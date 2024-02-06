@@ -1,0 +1,76 @@
+main {
+    .titulo-profesores {
+        margin-left: 7rem;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+        .inter-regular {
+            font-family: $tipografia-principal;
+            font-weight: 400;
+        }
+        .color-naranja {
+            color: $color-principal;
+        }
+        .subtitulo-profesores{}
+
+        .inter-bold {
+            font-family: $tipografia-principal;
+            font-weight: bold;
+        }
+    }
+    .subtitulo-salas {
+        margin-left: 7rem;
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    .inter-bold {
+        font-family: $tipografia-principal;
+        font-weight: bold;
+    }
+    .contenedor-img-profes {
+        margin-left: 7rem;
+        margin-top: 5rem;
+        margin-bottom: 12rem;
+        display: grid;
+        grid-template-areas:
+                            "profe1 profe2 profe3"
+                            "profe4 profe5 profe6";
+        grid-gap: 6rem;
+        row-gap: 8rem;
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe1{}
+        }
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe2{}
+        }
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe3{}
+        }
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe4{}
+        }
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe5{}
+        }
+        .imagenes-profes {
+            width: 370px;
+            height: 450px;
+            object-fit: cover;
+            .profe6{}
+        }
+    }
+}
