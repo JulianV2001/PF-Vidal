@@ -190,10 +190,11 @@
     background-color: black;
     height: 6rem;
     text-align: center;
+    margin-top: 70px;
 }
 
 .subtitulo-salas {
-    margin-left: 7rem;
+
     margin-top: 5rem;
     font-size: 2rem;
 }
@@ -257,9 +258,10 @@
 }
 
 .titulo-profesores {
-    margin-left: 7rem;
+    margin-left: 3rem;
     margin-top: 5rem;
     margin-bottom: 8rem;
+    text-align: center;
 }
 
 .contenedor-img-profes {
@@ -334,7 +336,112 @@
     color: white;
 }
 
+.btn-custom {
+    background-color: #E47E11; /* Cambia este color por el que desees */
+    color: white;
+    border: none;
+}
 
+.btn-custom:hover {
+    background-color: navajowhite; /* Color al pasar el ratón */
+}
+
+.main-contacto {
+    flex: 1;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-orange {
+    color: #f39c12; /* Cambia el color naranja si deseas otro tono */
+}
+
+.footer-modern h5 {
+    font-weight: bold;
+    color: #f39c12; /* Naranja para el título */
+}
+
+.footer-modern a {
+    color: #f39c12;
+    transition: color 0.3s;
+}
+
+.footer-modern a:hover {
+    color: #d35400; /* Color al pasar el ratón */
+}
+
+.footer-modern .text-center p {
+    color: #f39c12;
+}
+
+.footer-modern hr {
+    border-top: 1px solid #333;
+}
+.card-gym {
+    height: 450px; /* Tamaño más grande para las cards */
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-gym:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 300px; /* Ajuste de tamaño para imágenes más grandes */
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #E47E11;
+}
+
+.card-text {
+    color: #555;
+}
+
+.shadow-lg {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.card-profesor {
+    background-color: black;
+    color: #ffa500;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card-profesor:hover {
+    transform: scale(1.05);
+}
+.card-profesor img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 1rem;
+}
+.container {
+    padding-bottom: 150px;
+}
+        /* Animación de las cards */
+        .card-animada {
+            opacity: 0;
+            transform: translateY(20px); /* Deslizar hacia arriba */
+            transition: opacity 3s ease-out, transform 3s ease-out;
+        }
+
+        .card-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
 @media screen and (min-width: 768px) and (max-width: 1024px) 
     {
         .navbar-index {
